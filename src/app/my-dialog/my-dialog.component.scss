@@ -1,0 +1,18 @@
+.message {
+  padding: 2rem;
+  background-color: rgb(196, 214, 234);
+  color: rgba(13, 13, 13, 0.688);
+  font-size: x-large;
+  font-family: cursive;
+  border-radius: 0.2rem;
+  position: relative;
+}
+button {
+  position: absolute;
+  top: 5px; 
+  right: 5px; 
+  background-color: rgba(236, 239, 242, 0.36);
+  color: rgba(13, 13, 13, 0.907);
+  border: 1px;
+  padding: 0.2rem;
+}

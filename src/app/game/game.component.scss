@@ -1,0 +1,55 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+    width:430px;
+    margin-bottom: 20px;
+    margin: auto;
+    border-radius: 2rem;
+}
+.board div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    background-color: rgb(173, 199, 226);
+    font-size: 48px;
+    cursor: pointer;
+    color:  rgb(134, 92, 117);
+    font-family: cursive;
+    border-radius: 0.8rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button{
+    margin: 2rem;
+    font-size: 24px;
+    padding: 10px 20px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(134, 92, 117) ;
+    border:0cap;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow:inset;
+}
+button:hover{
+    background-color:  rgb(172, 128, 154) ;
+}
+
+h1{
+    margin: 5rem;
+    font-family: cursive;
+    font-size: 32px;
+    color:  rgb(134, 92, 117);
+   letter-spacing: 1.2rem;
+   animation: headerMotion 2s infinite alternate; 
+}
+@keyframes headerMotion {
+    0% {
+      transform: scale(1); 
+    }
+    100% {
+      transform: scale(1.3); 
+    }
+  }
